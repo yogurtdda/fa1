@@ -1,0 +1,36 @@
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 0669FF3731324B4D43133623
+ST-LINK FW  : V2J46M33
+Board       : 32F746GDISCOVERY
+Voltage     : 3.23V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x449
+Revision ID : Rev Z
+Device name : STM32F74x/STM32F75x
+NVM size    : 1 MBytes
+Device type : MCU
+Device CPU  : Cortex-M7
+BL Version  : 0x90
+Debug in Low Power mode enabled
+
+
+Reading 32-bit memory content
+  Size          : 152 Bytes
+  Address:      : 0x20013298
+0x20013298 : 00000001 0007A120 0019014A 00002776
+0x200132A8 : 00000000 00000000 00000000 00002776
+0x200132B8 : 009DD800 00000000 00000000 0000D215
+0x200132C8 : 00064082 00000000 00002776 00000000
+0x200132D8 : 00000000 00000000 00000000 00000001
+0x200132E8 : 00002776 00002776 00002775 07ED73D6
+0x200132F8 : 00000007 000007FE 000007FE 000007FE
+0x20013308 : 00000FFD 000013BB 000013BB 00000167
+0x20013318 : 00000000 00000000 01100001 011001E0
+0x20013328 : 000001E0 2000E188
+
+

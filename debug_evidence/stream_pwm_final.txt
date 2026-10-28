@@ -1,0 +1,26 @@
+0x08026b98 in vApplicationIdleHook () at E:/STM32/embedCourse/finalboardTX/Core/Src/freertos.c:75
+75	}
+$1 = 0x8026b98
+Trying to halt core...
+#0  0x08026b98 in vApplicationIdleHook () at E:/STM32/embedCourse/finalboardTX/Core/Src/freertos.c:75
+#1  0x08010324 in prvIdleTask (pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3394
+#2  0x08011678 in pxPortInitialiseStack (pxTopOfStack=0xa5a5a5a5, pxCode=0x0, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#3  0x08011678 in pxPortInitialiseStack (pxTopOfStack=0x8011679 <prvTaskExitError>, pxCode=0xa5a5a5a5, pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+$2 = {running = 0, sample_hz = 500000, session = 1164462830, dma_blocks = 2131, dma_queue_drops = 0, overwritten_blocks = 0, ring_drops = 0, packed_blocks = 2131, packed_samples = 2182144, adc_errors = 1, gpio_dma_errors = 0, pack_max_cycles = 47035, dma_last_interval_cycles = 409482, link_up = 0, link_dropped_blocks = 2131, arp_wait_blocks = 0, udp_ok = 0, udp_errors = 0, udp_payload_bytes = 0, netconn_ready = 1, producer = 2131, consumer = 2131, last_block = 2130, last_record = 116224981, last_digital = 6, gpio_ndtr = {1022, 1022, 1022}, adc_ndtr = 2046, half_callbacks = 1066, full_callbacks = 1065, started_tick = 359, error_tick = 4725}
+$3 = {ready = 1, requested_hz = {1000, 2500, 5000}, actual_millihz = {1000000, 2500000, 5000000}, changes = 6}
+$4 = {memory_ready = 1, memory_test_words = 261120, memory_test_errors = 0, task_created = 1, task_started = 1, frames = 2446, gui_stack_free_words = 3441, rtos_free_heap_bytes = 6320}
+$5 = {init_calls = 1, polls = 2446, valid_samples = 63, read_errors = 0, last_status = HAL_OK, chip_id = 81 'Q', ready = true, pressed = false, raw_x = 226, raw_y = 432, screen_x = 432, screen_y = 226}
+$6 = {values = {1000, 2500, 5000}, selected_channel = 2, refreshes = 14, confirm_calls = 3, saved = 3, rejected = 0}
+$7 = 0x2
+$8 = 0x4032d1f
+$9 = 0x4001224c
+$10 = 0x20021800
+$11 = 0x28
+$12 = 0xe00
+$13 = 0x0
+$14 = 0x0
+$15 = 6320
+$16 = 0x20026000
+$17 = 2130
+$18 = {1000, 1000, 1000}
+[Inferior 1 (Remote target) detached]

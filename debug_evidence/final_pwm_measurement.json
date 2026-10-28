@@ -1,0 +1,35 @@
+{
+  "D1": {
+    "rising_indices": [
+      187,
+      687
+    ],
+    "period_samples": [
+      500
+    ],
+    "measured_hz": 1000.0,
+    "high_fraction_in_block": 0.48828125
+  },
+  "D2": {
+    "rising_indices": [
+      356,
+      856
+    ],
+    "period_samples": [
+      500
+    ],
+    "measured_hz": 1000.0,
+    "high_fraction_in_block": 0.51171875
+  },
+  "D3": {
+    "rising_indices": [
+      359,
+      859
+    ],
+    "period_samples": [
+      500
+    ],
+    "measured_hz": 1000.0,
+    "high_fraction_in_block": 0.51171875
+  }
+}

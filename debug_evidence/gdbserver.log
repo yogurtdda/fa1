@@ -1,0 +1,65 @@
+
+
+STMicroelectronics ST-LINK GDB server. Version 7.14.0
+Copyright (c) 2026, STMicroelectronics. All rights reserved.
+
+Starting server with the following options:
+        Persistent Mode            : Enabled
+        Logging Level              : 1
+        Listen Port Number         : 61234
+        Status Refresh Delay       : 15s
+        Verbose Mode               : Disabled
+        SWD Debug                  : Enabled
+
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+
+
+Log output file:   C:\Users\antar\AppData\Local\Temp\STM32CubeProgrammer_a29140.log
+ST-LINK SN  : 0669FF3731324B4D43133623
+ST-LINK FW  : V2J46M33
+Board       : 32F746GDISCOVERY
+Voltage     : 3.23V
+SWD freq    : 4000 KHz
+Connect mode: Under Reset
+Reset mode  : Hardware reset
+Device ID   : 0x449
+Revision ID : Rev Z
+Device name : STM32F74x/STM32F75x
+NVM size    : 1 MBytes
+Device type : MCU
+Device CPU  : Cortex-M7
+BL Version  : 0x90
+Debug in Low Power mode enabled
+
+
+
+Opening and parsing file: ST-LINK_GDB_server_a29140.srec
+
+
+Memory Programming ...
+  File          : ST-LINK_GDB_server_a29140.srec
+  Size          : 221.28 KB 
+  Address       : 0x08000000
+
+
+Erasing memory corresponding to segment 0:
+Erasing internal memory sectors [0 4]
+Download in Progress:
+
+
+File download complete
+Time elapsed during download operation: 00:00:04.158
+Debugger connected
+Waiting for debugger connection...

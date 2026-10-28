@@ -1,0 +1,38 @@
+xTaskCheckForTimeOut (pxTimeOut=0x800e94d <xTaskRemoveFromEventList+188>, pxTicksToWait=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3265
+3265				xReturn = pdFALSE;
+STM32 Successfully completed reset operation (System reset)
+Trying to halt core...
+Loading section .isr_vector, size 0x1c8 lma 0x8000000
+Loading section .text, size 0x30080 lma 0x80001d0
+Loading section .rodata, size 0x37bc lma 0x8030250
+Loading section FontFlashSection, size 0x327c lma 0x8033a0c
+Loading section FontSearchFlashSection, size 0x284 lma 0x8036c88
+Loading section TextFlashSection, size 0x204 lma 0x8036f0c
+Loading section .ARM, size 0x8 lma 0x8037110
+Loading section .init_array, size 0x14 lma 0x8037118
+Loading section .fini_array, size 0x4 lma 0x803712c
+Loading section .data, size 0xb0 lma 0x8037130
+Loading section .RxDescripSection, size 0xa0 lma 0x80371e0
+Loading section .TxDescripSection, size 0xa0 lma 0x8037280
+Loading section TouchGFX_ScratchbufferB, size 0x100 lma 0x8037320
+Loading section TouchGFX_ScratchbufferA, size 0x100 lma 0x8037420
+Start address 0x08025168, load size 226584
+Transfer rate: 50 KB/sec, 8714 bytes/write.
+Section .isr_vector, range 0x8000000 -- 0x80001c8: MIS-MATCHED!
+Section .text, range 0x80001d0 -- 0x8030250: MIS-MATCHED!
+Section .rodata, range 0x8030250 -- 0x8033a0c: MIS-MATCHED!
+Section FontFlashSection, range 0x8033a0c -- 0x8036c88: MIS-MATCHED!
+Section FontSearchFlashSection, range 0x8036c88 -- 0x8036f0c: MIS-MATCHED!
+Section TextFlashSection, range 0x8036f0c -- 0x8037110: MIS-MATCHED!
+Section .ARM, range 0x8037110 -- 0x8037118: MIS-MATCHED!
+Section .init_array, range 0x8037118 -- 0x803712c: MIS-MATCHED!
+Section .fini_array, range 0x803712c -- 0x8037130: MIS-MATCHED!
+Section .data, range 0x8037130 -- 0x80371e0: MIS-MATCHED!
+Section .RxDescripSection, range 0x80371e0 -- 0x8037280: MIS-MATCHED!
+Section .TxDescripSection, range 0x8037280 -- 0x8037320: MIS-MATCHED!
+Section TouchGFX_ScratchbufferB, range 0x8037320 -- 0x8037420: MIS-MATCHED!
+Section TouchGFX_ScratchbufferA, range 0x8037420 -- 0x8037520: MIS-MATCHED!
+warning: One or more sections of the target image does not match the loaded file
+STM32 Successfully completed reset operation (System reset)
+Trying to halt core...
+[Inferior 1 (Remote target) detached]

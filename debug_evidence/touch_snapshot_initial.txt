@@ -1,0 +1,10 @@
+0x080034d4 in HAL_Delay (Delay=200) at E:/STM32/embedCourse/finalboardTX/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c:379
+379	  while ((HAL_GetTick() - tickstart) < wait)
+$1 = 0x80034d4
+$2 = {memory_ready = 1, memory_test_words = 261120, memory_test_errors = 0, task_created = 0, task_started = 0, frames = 0, gui_stack_free_words = 0, rtos_free_heap_bytes = 0}
+$3 = {stage = BOARD_SDRAM_READY, hal_status = HAL_OK, clock_hz = 100000000, refresh_count = 1542, framebuffer_bytes_cleared = 522240}
+$4 = {init_calls = 1, polls = 0, valid_samples = 0, read_errors = 0, last_status = HAL_ERROR, chip_id = 0 '\000', ready = false, pressed = false, raw_x = 0, raw_y = 0, screen_x = 0, screen_y = 0}
+$5 = {values = {0, 0, 0}, selected_channel = 0, refreshes = 0, confirm_calls = 0, saved = 0, rejected = 0}
+$6 = 0x0
+$7 = 0x0
+[Inferior 1 (Remote target) detached]

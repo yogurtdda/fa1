@@ -1,0 +1,67 @@
+[
+  {
+    "file": "CMakeLists.txt",
+    "status": "modified",
+    "sha256": "4d43a9885f10ff304aa070dac8b99277d804d2383ce6ce5e2c3c977a0f41d2d2"
+  },
+  {
+    "file": "docs/屏幕修复与新增代码说明.md",
+    "status": "added",
+    "sha256": "2233f764365ca4603575201ce1d8b28858c7e38d1df51eb6aefd54e4dd589dd9"
+  },
+  {
+    "file": "Core/Inc/board_display.h",
+    "status": "added",
+    "sha256": "702fa79d9598d265929ddfc7d2513d8cacbf9c26188cab5512b8c330d98b118e"
+  },
+  {
+    "file": "Core/Inc/board_sdram.h",
+    "status": "added",
+    "sha256": "120a159dc6d912b18e92d23f87f0eac77ad3b0295ba53fc45eb23f1f8209b049"
+  },
+  {
+    "file": "Core/Inc/FreeRTOSConfig.h",
+    "status": "modified",
+    "sha256": "7ec6125e9d4d6850b75771834bbeedbef85d4b817cf6e731040e1c423d982138"
+  },
+  {
+    "file": "Core/Src/board_display.c",
+    "status": "added",
+    "sha256": "2bd4b789f7ca66da28e7556080316a3b91ac90fd1ade02a23a6251fe2aea51fa"
+  },
+  {
+    "file": "Core/Src/board_sdram.c",
+    "status": "added",
+    "sha256": "79d41fe19c83348e085238ed113dcf4793f0c08aadc11b7b0d390625b8308df7"
+  },
+  {
+    "file": "Core/Src/main.c",
+    "status": "modified",
+    "sha256": "6d2dc9acf16c4dd9e23caeec1405f96dd98d35d1d22282da799f6d15a2ebf2e8"
+  },
+  {
+    "file": "TouchGFX/target/STM32TouchController.cpp",
+    "status": "modified",
+    "sha256": "30a149fb4ebac9177d14b48824bde12edaaff65f3f99a6f633487fd74edc98e5"
+  },
+  {
+    "file": "TouchGFX/target/TouchGFXHAL.cpp",
+    "status": "modified",
+    "sha256": "519153cc67ad32006caa38e1b68a07714c08ef73ce57005e4940d45572d0ce22"
+  },
+  {
+    "file": "TouchGFX/gui/include/gui/model/Model.hpp",
+    "status": "modified",
+    "sha256": "e49d874a64e7b21b1c646055006de6b039a57215459823b885e7849a264cdb80"
+  },
+  {
+    "file": "TouchGFX/gui/src/frequency_screen/frequencyView.cpp",
+    "status": "modified",
+    "sha256": "bfc80dbd62f4a8cb592d4a8dbb1287438399740240cd404b73044f0881b36e55"
+  },
+  {
+    "file": "TouchGFX/gui/src/model/Model.cpp",
+    "status": "modified",
+    "sha256": "f7bc69125d8a99529842dce71277ee2cf7452865c62df09a1f40a89f8bc26df4"
+  }
+]

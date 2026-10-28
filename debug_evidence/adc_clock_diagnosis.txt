@@ -1,0 +1,17 @@
+0x0801030a in prvIdleTask (pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3374
+3374				if( listCURRENT_LIST_LENGTH( &( pxReadyTasksLists[ tskIDLE_PRIORITY ] ) ) > ( UBaseType_t ) 1 )
+$1 = 0x2
+$2 = 0x43
+$3 = 0x10000
+$4 = 0x100000
+$5 = 0x100
+$6 = 0x0
+$7 = 0x17000301
+$8 = 0x4000100
+$9 = 0x10
+$10 = 200000000
+$11 = 0x940a
+$12 = 0x18f
+$13 = 0x0
+$14 = 0x0
+[Inferior 1 (Remote target) detached]

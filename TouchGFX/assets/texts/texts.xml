@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Sender">
+      <Text Id="TITLE" Alignment="Left" TypographyId="Heading">
+        <Translation Language="GB">数字信号频率设置</Translation>
+      </Text>
+      <Text Id="SCOPENOTE" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">参数设置</Translation>
+      </Text>
+      <Text Id="CHANNEL1" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">D1</Translation>
+      </Text>
+      <Text Id="FREQUENCY1" Alignment="Left" TypographyId="Value">
+        <Translation Language="GB">&lt;value&gt; Hz</Translation>
+      </Text>
+      <Text Id="CHANNEL2" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">D2</Translation>
+      </Text>
+      <Text Id="FREQUENCY2" Alignment="Left" TypographyId="Value">
+        <Translation Language="GB">&lt;value&gt; Hz</Translation>
+      </Text>
+      <Text Id="CHANNEL3" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">D3</Translation>
+      </Text>
+      <Text Id="FREQUENCY3" Alignment="Left" TypographyId="Value">
+        <Translation Language="GB">&lt;value&gt; Hz</Translation>
+      </Text>
+      <Text Id="LIMIT" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">范围 100–10000 Hz</Translation>
+      </Text>
+      <Text Id="STORAGE" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">确认保存 · 重启后恢复默认</Translation>
+      </Text>
+      <Text Id="EDITCHANNEL" Alignment="Left" TypographyId="Button">
+        <Translation Language="GB">D1</Translation>
+      </Text>
+      <Text Id="EDITVALUE" Alignment="Left" TypographyId="Value">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="UNIT" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Hz</Translation>
+      </Text>
+      <Text Id="KEY1" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="KEY2" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="KEY3" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">3</Translation>
+      </Text>
+      <Text Id="KEY4" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">4</Translation>
+      </Text>
+      <Text Id="KEY5" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">5</Translation>
+      </Text>
+      <Text Id="KEY6" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">6</Translation>
+      </Text>
+      <Text Id="KEY7" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">7</Translation>
+      </Text>
+      <Text Id="KEY8" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">8</Translation>
+      </Text>
+      <Text Id="KEY9" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">9</Translation>
+      </Text>
+      <Text Id="KEYCLEAR" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">清空</Translation>
+      </Text>
+      <Text Id="KEY0" Alignment="Center" TypographyId="Button">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="KEYBACK" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">退格</Translation>
+      </Text>
+      <Text Id="KEYCANCEL" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">取消</Translation>
+      </Text>
+      <Text Id="KEYCONFIRM" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">确认</Translation>
+      </Text>
+      <Text Id="STATUS" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">点击 D1/D2/D3，输入后确认</Translation>
+      </Text>
+      <Text Id="STATUS_READY" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">点击 D1/D2/D3，输入后确认</Translation>
+      </Text>
+      <Text Id="STATUS_SAVED" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">已保存当前通道频率</Translation>
+      </Text>
+      <Text Id="STATUS_RANGE" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">请输入 100–10000 Hz</Translation>
+      </Text>
+      <Text Id="STATUS_DRAFT" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">编辑中，确认后保存</Translation>
+      </Text>
+      <Text Id="STATUS_CANCELLED" Alignment="Left" TypographyId="Tiny">
+        <Translation Language="GB">已取消，恢复原频率</Translation>
+      </Text>
+      <Text Id="CHANNEL_D1" Alignment="Left" TypographyId="Button">
+        <Translation Language="GB">D1</Translation>
+      </Text>
+      <Text Id="CHANNEL_D2" Alignment="Left" TypographyId="Button">
+        <Translation Language="GB">D2</Translation>
+      </Text>
+      <Text Id="CHANNEL_D3" Alignment="Left" TypographyId="Button">
+        <Translation Language="GB">D3</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Heading" Font="MiSans-Demibold.ttf" Size="23" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 Hz" />
+    <Typography Id="Button" Font="MiSans-Demibold.ttf" Size="21" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 Hz" />
+    <Typography Id="Value" Font="MiSans-Demibold.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 Hz" />
+    <Typography Id="Small" Font="MiSans-Demibold.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 Hz" />
+    <Typography Id="Tiny" Font="MiSans-Demibold.ttf" Size="12" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 Hz" />
+  </Typographies>
+</TextDatabase>

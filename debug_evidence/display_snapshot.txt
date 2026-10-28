@@ -1,0 +1,16 @@
+0x0800eb62 in prvCheckTasksWaitingTermination () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3589
+3589			while( uxDeletedTasksWaitingCleanUp > ( UBaseType_t ) 0U )
+$1 = 0x800eb62
+#0  0x0800eb62 in prvCheckTasksWaitingTermination () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3589
+#1  0x0800ea7c in prvIdleTask (pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3351
+#2  0x0800fb90 in pxPortInitialiseStack (pxTopOfStack=0xa5a5a5a5, pxCode=0x0, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#3  0x0800fb90 in pxPortInitialiseStack (pxTopOfStack=0x800fb91 <prvTaskExitError>, pxCode=0xa5a5a5a5, pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+$2 = {memory_ready = 1, memory_test_words = 261120, memory_test_errors = 0, task_created = 1, task_started = 1, frames = 526, gui_stack_free_words = 3440, rtos_free_heap_bytes = 6504}
+$3 = {stage = BOARD_SDRAM_READY, hal_status = HAL_OK, clock_hz = 100000000, refresh_count = 1542, framebuffer_bytes_cleared = 522240}
+$4 = 7
+$5 = 0x0
+$6 = 0x0
+$7 = 0x1
+$8 = 0xc0040000
+$9 = 0xc0c
+[Inferior 1 (Remote target) detached]

@@ -1,0 +1,5 @@
+[1/2] Building CXX object CMakeFiles/finalboardTX.dir/TouchGFX/target/STM32TouchController.cpp.obj
+[2/2] Linking CXX executable finalboardTX.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:      120872 B       320 KB     36.89%
+           FLASH:      229868 B         1 MB     21.92%

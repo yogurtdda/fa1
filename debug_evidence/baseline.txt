@@ -1,0 +1,26 @@
+0x0800ea32 in prvCheckTasksWaitingTermination () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3589
+3589			while( uxDeletedTasksWaitingCleanUp > ( UBaseType_t ) 0U )
+BASELINE BEFORE REPAIR
+$1 = 0x800ea32
+#0  0x0800ea32 in prvCheckTasksWaitingTermination () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3589
+#1  0x0800e94c in prvIdleTask (pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3351
+#2  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0xa5a5a5a5, pxCode=0x0, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#3  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0x800f9d9 <prvTaskExitError>, pxCode=0xa5a5a5a5, pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#4  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0xa5a5a5a5, pxCode=0x800f9d9 <prvTaskExitError>, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#5  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0xa5a5a5a5, pxCode=0xa5a5a5a5, pvParameters=0x800f9d9 <prvTaskExitError>) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#6  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0x1, pxCode=0xa5a5a5a5, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#7  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0x2, pxCode=0x1, pvParameters=0xa5a5a5a5) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#8  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0x40001000, pxCode=0x2, pvParameters=0x1) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+#9  0x0800f9d8 in pxPortInitialiseStack (pxTopOfStack=0x63, pxCode=0x40001000, pvParameters=0x2) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c:208
+$2 = 0x0
+$3 = 0x0
+$4 = 0x0
+$5 = 291764
+$6 = 200000000
+$7 = 6
+$8 = 0x2221
+$9 = 0xc0000000
+$10 = 0x0
+$11 = 0x1000
+$12 = 0x8
+[Inferior 1 (Remote target) detached]

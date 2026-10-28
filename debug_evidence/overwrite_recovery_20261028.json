@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-28",
+  "repaired_files": [
+    "Core/Src/main.c"
+  ],
+  "backup": "E:\\STM32\\embedCourse\\_tx_overwrite_backup_20261028",
+  "manifest_checks": {
+    "Core/Src/sender_pwm.c": {
+      "expected": "efcc68599e21c4274d33a1e699b4a8e903e332d45ce66888b76fc2b14680b5bd",
+      "actual": "efcc68599e21c4274d33a1e699b4a8e903e332d45ce66888b76fc2b14680b5bd",
+      "match": true
+    },
+    "Core/Inc/sender_pwm.h": {
+      "expected": "03177d9395bd8bb7ab25ac75a2e7fb7007f3052c57aaaac6e6cc2c9231a12592",
+      "actual": "03177d9395bd8bb7ab25ac75a2e7fb7007f3052c57aaaac6e6cc2c9231a12592",
+      "match": true
+    },
+    "Core/Src/sender_stream.c": {
+      "expected": "bd3d6808171031cb01488ffa94d50d6ee40a29d8c8372c11c253f9ca6edf7519",
+      "actual": "bd3d6808171031cb01488ffa94d50d6ee40a29d8c8372c11c253f9ca6edf7519",
+      "match": true
+    },
+    "Core/Inc/sender_stream.h": {
+      "expected": "b45944b86735717c8bc326c52f3ac252910f1fe021fbc840dd155ade6ec67694",
+      "actual": "b45944b86735717c8bc326c52f3ac252910f1fe021fbc840dd155ade6ec67694",
+      "match": true
+    },
+    "Core/Src/sender_protocol.c": {
+      "expected": "1086caeccfe179ffcef98059d2479ace4bb26287f89174b2bfdaa1988c883584",
+      "actual": "1086caeccfe179ffcef98059d2479ace4bb26287f89174b2bfdaa1988c883584",
+      "match": true
+    },
+    "Core/Inc/sender_protocol.h": {
+      "expected": "0bab91f8a36c6f01bf3c72791a5f450b716edb6a8830c474b703850dccb56150",
+      "actual": "0bab91f8a36c6f01bf3c72791a5f450b716edb6a8830c474b703850dccb56150",
+      "match": true
+    },
+    "Core/Src/main.c": {
+      "expected": "37a97ce71979b60fd694b3acc4879a2bcd6e54fd433b263c16ef7f6545c05987",
+      "actual": "37a97ce71979b60fd694b3acc4879a2bcd6e54fd433b263c16ef7f6545c05987",
+      "match": true
+    },
+    "Core/Src/stm32f7xx_it.c": {
+      "expected": "6293cc87038337c1551156da05f25ee73f7a2cb0dbfee4e691b0ae246125c2d1",
+      "actual": "6293cc87038337c1551156da05f25ee73f7a2cb0dbfee4e691b0ae246125c2d1",
+      "match": true
+    },
+    "Core/Inc/stm32f7xx_it.h": {
+      "expected": "0e35cb5fc5322262ef02686bc3bac8c357ffa1147d6f2e5b23867cd1ee372c62",
+      "actual": "0e35cb5fc5322262ef02686bc3bac8c357ffa1147d6f2e5b23867cd1ee372c62",
+      "match": true
+    },
+    "LWIP/Target/ethernetif.c": {
+      "expected": "41ed8a99400ae5387b2fb088e3cfac0bb7587bef67e71ead58d5779a00641147",
+      "actual": "41ed8a99400ae5387b2fb088e3cfac0bb7587bef67e71ead58d5779a00641147",
+      "match": true
+    },
+    "LWIP/Target/lwipopts.h": {
+      "expected": "3936c25abe137872baf390dc83c4f6a72289abb01bd03ff1804b87d992c11c9f",
+      "actual": "3936c25abe137872baf390dc83c4f6a72289abb01bd03ff1804b87d992c11c9f",
+      "match": true
+    },
+    "STM32F746xx_FLASH.ld": {
+      "expected": "3cd8e5ca1d42a2f6a2281a45cc37a2aa9bdfd202a919e81cc7b25b0cfa0be2cf",
+      "actual": "3cd8e5ca1d42a2f6a2281a45cc37a2aa9bdfd202a919e81cc7b25b0cfa0be2cf",
+      "match": true
+    },
+    "CMakeLists.txt": {
+      "expected": "28c1943ba284e4640c028147e0c16a68045125a45bb36fb7b939f909165edc65",
+      "actual": "28c1943ba284e4640c028147e0c16a68045125a45bb36fb7b939f909165edc65",
+      "match": true
+    },
+    "finalboardTX.ioc": {
+      "expected": "d30ab572322092651c0da1bc0d63ba83b128835f93aa6e1d298106caf6ff7cba",
+      "actual": "d30ab572322092651c0da1bc0d63ba83b128835f93aa6e1d298106caf6ff7cba",
+      "match": true
+    },
+    "TouchGFX/gui/src/frequency_screen/frequencyView.cpp": {
+      "expected": "119fd3e16f3b2abfbfe4368faea173560d1abb4a98fae25fb51e19d11d956b59",
+      "actual": "119fd3e16f3b2abfbfe4368faea173560d1abb4a98fae25fb51e19d11d956b59",
+      "match": true
+    },
+    "tools/receive_samples.py": {
+      "expected": "2ee6d4486c3e7a339a404b60eb90aa1299548f74b01a45e9ed09e9afb113dfc8",
+      "actual": "2ee6d4486c3e7a339a404b60eb90aa1299548f74b01a45e9ed09e9afb113dfc8",
+      "match": true
+    },
+    "tests/protocol_test.c": {
+      "expected": "d443e030049d3358a3a3cfcddeb7ecba4a0a0efd7705da2e436d70838243e3d8",
+      "actual": "d443e030049d3358a3a3cfcddeb7ecba4a0a0efd7705da2e436d70838243e3d8",
+      "match": true
+    },
+    "docs/发送端采样_PWM_UDP实现说明.md": {
+      "expected": "4c550a97786f772588c68d8a28a59af1a21e683adfa6a2ab6e714c5ad29adb85",
+      "actual": "4c550a97786f772588c68d8a28a59af1a21e683adfa6a2ab6e714c5ad29adb85",
+      "match": true
+    },
+    "build/Debug/finalboardTX.elf": {
+      "expected": "6dae4e418d9fa65c4e39c97cd94c74c4ca44836f6b44e1e7110d5a0b34b80fab",
+      "actual": "6dae4e418d9fa65c4e39c97cd94c74c4ca44836f6b44e1e7110d5a0b34b80fab",
+      "match": true
+    }
+  },
+  "flash_binary_identical_to_previous_delivery": true,
+  "flash_binary_bytes": 242788,
+  "flash_binary_sha256": "4ac5eb57b6678916cbf7c3c87866d8cfcf3ec1082135b4ffe14b3e5b517bed37",
+  "flashed_in_this_repair": false,
+  "receiver_modified": false
+}

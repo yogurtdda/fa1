@@ -1,0 +1,41 @@
+{
+  "D1": {
+    "rising_sample_indices": [
+      11,
+      294,
+      794
+    ],
+    "period_samples": [
+      283,
+      500
+    ],
+    "measured_hz": 1277.139208173691,
+    "duty": 0.5009765625
+  },
+  "D2": {
+    "rising_sample_indices": [
+      11,
+      298,
+      798
+    ],
+    "period_samples": [
+      287,
+      500
+    ],
+    "measured_hz": 1270.6480304955528,
+    "duty": 0.5009765625
+  },
+  "D3": {
+    "rising_sample_indices": [
+      11,
+      301,
+      801
+    ],
+    "period_samples": [
+      290,
+      500
+    ],
+    "measured_hz": 1265.8227848101267,
+    "duty": 0.50390625
+  }
+}

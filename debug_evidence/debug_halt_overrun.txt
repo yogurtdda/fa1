@@ -1,0 +1,15 @@
+0x08026958 in vApplicationIdleHook () at E:/STM32/embedCourse/finalboardTX/Core/Src/freertos.c:75
+75	}
+$1 = 0x30
+$2 = 0x4000100
+$3 = 0x17000301
+$4 = 0xc300000
+$5 = 0x0
+$6 = 0x0
+$7 = 0xad
+$8 = {running = 1, sample_hz = 500000, session = 1638730, dma_blocks = 3391, dma_queue_drops = 0, overwritten_blocks = 1, ring_drops = 0, packed_blocks = 3390, packed_samples = 3471360, adc_errors = 0, gpio_dma_errors = 0, pack_max_cycles = 0, dma_last_interval_cycles = 0, link_up = 0, link_dropped_blocks = 3390, arp_wait_blocks = 0, udp_ok = 0, udp_errors = 0, udp_payload_bytes = 0, netconn_ready = 1, producer = 3390, consumer = 3390, last_block = 3390, last_record = 133026741, last_digital = 7, gpio_ndtr = {2047, 2047, 2047}, adc_ndtr = 2048}
+$9 = 0x63
+$10 = 0x3e7
+$11 = 0x18f
+$12 = 0xc7
+[Inferior 1 (Remote target) detached]

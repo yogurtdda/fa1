@@ -1,0 +1,9 @@
+[1/3] Building C object CMakeFiles/finalboardTX.dir/Core/Src/main.c.obj
+[2/3] Building C object CMakeFiles/finalboardTX.dir/Core/Src/sender_stream.c.obj
+[3/3] Linking CXX executable finalboardTX.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:      103680 B       128 KB     79.10%
+         RAM_DMA:       76864 B       128 KB     58.64%
+       LWIP_HEAP:         48 KB        48 KB    100.00%
+        ETH_DESC:         320 B         4 KB      7.81%
+           FLASH:      242584 B         1 MB     23.13%

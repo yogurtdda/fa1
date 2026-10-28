@@ -1,0 +1,25 @@
+0x0800fd06 in xTaskResumeAll () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:2190
+2190			--uxSchedulerSuspended;
+$1 = 0x800fd06
+#0  0x0800fd06 in xTaskResumeAll () at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:2190
+#1  0x0800fbb6 in vTaskDelay (xTicksToDelay=1) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:1354
+#2  0x08010d1c in osDelay (millisec=1) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:327
+#3  0x08026ac6 in StartDefaultTask (argument=0x0) at E:/STM32/embedCourse/finalboardTX/Core/Src/main.c:1682
+$2 = {running = 1, sample_hz = 500000, session = 1164462830, dma_blocks = 412, dma_queue_drops = 0, overwritten_blocks = 0, ring_drops = 0, packed_blocks = 411, packed_samples = 420864, adc_errors = 0, gpio_dma_errors = 0, pack_max_cycles = 46534, dma_last_interval_cycles = 409724, link_up = 0, link_dropped_blocks = 411, arp_wait_blocks = 0, udp_ok = 0, udp_errors = 0, udp_payload_bytes = 0, netconn_ready = 1, producer = 412, consumer = 412, last_block = 411, last_record = 15545296, last_digital = 0, gpio_ndtr = {2046, 2046, 2046}, adc_ndtr = 4093, half_callbacks = 206, full_callbacks = 206, started_tick = 359, error_tick = 0}
+$3 = {ready = 1, requested_hz = {1000, 1000, 1000}, actual_millihz = {1000000, 1000000, 1000000}, changes = 3}
+$4 = {memory_ready = 1, memory_test_words = 261120, memory_test_errors = 0, task_created = 1, task_started = 1, frames = 63, gui_stack_free_words = 3441, rtos_free_heap_bytes = 6320}
+$5 = {init_calls = 1, polls = 83, valid_samples = 0, read_errors = 0, last_status = HAL_OK, chip_id = 81 'Q', ready = true, pressed = false, raw_x = 0, raw_y = 0, screen_x = 0, screen_y = 0}
+$6 = {values = {1000, 1000, 1000}, selected_channel = 0, refreshes = 1, confirm_calls = 0, saved = 0, rejected = 0}
+$7 = 0x0
+$8 = 0x4032d1f
+$9 = 0x4001224c
+$10 = 0x20021800
+$11 = 0x28
+$12 = 0xe00
+$13 = 0x0
+$14 = 0x0
+$15 = 6320
+$16 = 0x20026000
+$17 = 1055
+$18 = {1000, 1000, 1000}
+[Inferior 1 (Remote target) detached]

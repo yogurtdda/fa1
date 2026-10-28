@@ -1,0 +1,13 @@
+0x080034d0 in HAL_Delay (Delay=200) at E:/STM32/embedCourse/finalboardTX/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c:379
+379	  while ((HAL_GetTick() - tickstart) < wait)
+#0  0x080034d0 in HAL_Delay (Delay=200) at E:/STM32/embedCourse/finalboardTX/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c:379
+#1  0x08022e3c in STM32TouchController::init (this=0x20011a18 <tc>) at E:/STM32/embedCourse/finalboardTX/TouchGFX/target/STM32TouchController.cpp:77
+#2  0x0802693a in touchgfx::HAL::initialize() ()
+#3  0x08021ecc in TouchGFXGeneratedHAL::initialize (this=0x2001284c <hal>) at E:/STM32/embedCourse/finalboardTX/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp:37
+#4  0x08022c84 in TouchGFXHAL::initialize (this=0x2001284c <hal>) at E:/STM32/embedCourse/finalboardTX/TouchGFX/target/TouchGFXHAL.cpp:38
+#5  0x080216a4 in touchgfx_init () at E:/STM32/embedCourse/finalboardTX/TouchGFX/target/generated/TouchGFXConfiguration.cpp:58
+$1 = 153
+$2 = 0x50
+$3 = 0x0
+$4 = 0x1
+[Inferior 1 (Remote target) detached]

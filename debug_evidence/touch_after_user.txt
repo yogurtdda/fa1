@@ -1,0 +1,10 @@
+prvIdleTask (pvParameters=0x0) at E:/STM32/embedCourse/finalboardTX/Middlewares/Third_Party/FreeRTOS/Source/tasks.c:3351
+3351			prvCheckTasksWaitingTermination();
+$1 = 0x800f494
+$2 = {memory_ready = 1, memory_test_words = 261120, memory_test_errors = 0, task_created = 1, task_started = 1, frames = 11028, gui_stack_free_words = 3441, rtos_free_heap_bytes = 6504}
+$3 = {stage = BOARD_SDRAM_READY, hal_status = HAL_OK, clock_hz = 100000000, refresh_count = 1542, framebuffer_bytes_cleared = 522240}
+$4 = {init_calls = 1, polls = 11028, valid_samples = 0, read_errors = 0, last_status = HAL_OK, chip_id = 81 'Q', ready = true, pressed = false, raw_x = 0, raw_y = 0, screen_x = 0, screen_y = 0}
+$5 = {values = {1000, 1000, 1000}, selected_channel = 0, refreshes = 1, confirm_calls = 0, saved = 0, rejected = 0}
+$6 = 0x0
+$7 = 0x0
+[Inferior 1 (Remote target) detached]
